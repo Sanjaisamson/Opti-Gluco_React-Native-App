@@ -29,14 +29,20 @@
     },
     "plugins": [
       [
-      "expo-build-properties",
-      {
-        "android": {
-          "compileSdkVersion": 31,
-          "targetSdkVersion": 31,
-          "buildToolsVersion": "31.0.0"
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 31,
+            "targetSdkVersion": 31,
+            "buildToolsVersion": "31.0.0"
+          }
         }
-      }]
-    ]
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "82e5b1a4-623a-4241-b795-5049f496ca55"
+      }
+    }
   }
 }
